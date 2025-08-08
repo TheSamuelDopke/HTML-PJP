@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página da 3° Aula</title>
+    <link rel="stylesheet" href="external.css">
+    <style>
+        body {
+            background-image: url(../../images/bg-image.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        .optimized {
+            color: white;
+            background-color: black;
+            width: fit-content;
+            padding: 2px;
+            font-size: 18px;
+        }
+
+        #unico {
+            color: rgb(132, 0, 255);
+            background-color: rgb(255, 195, 195);
+            font-size: 20px;
+            padding: 5px;
+        }
+
+        a {
+            color: white;
+        }
+
+        marquee {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Aprendendo HTML5 com CSS3</h1>
+    <p style="color: rgb(0, 238, 255); font-size: 20px;">Podemos definir um estilo em formato inline, ou seja no próprio
+        elemento como
+        este aqui</p>
+
+    <p class="optimized">Podemos usar classes para definir um grupo de elementos que terão os mesmos atributos</p>
+    <p class="optimized">Facilitando a manutabilidade do projeto</p>
+
+    <p id="unico">E podemos usar algo realmente único, o ID, onde somente aquele elemento referenciado terá os atributos
+        específicados ao ID.</p>
+
+
+    <div id="div_animada">Podemos usar também o CSS aplicado a um arquivo fora da página HTML, como o external.css que
+        estou referenciando para fazer a animação de cor e movimento dessa div.</div>
+    <a href="https://www.w3schools.com/css/css3_animations.asp" target="_blank" style="font-size: 18px;">Material usado
+        para a animação de cor e movimento</a>
+
+    <marquee direction="right" scrollamount="3000">KATCHHAAAUU</marquee>
+</body>
+
+</html>

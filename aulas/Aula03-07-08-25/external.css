@@ -1,0 +1,53 @@
+@keyframes animacao-cor {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+@keyframes animacao-movendo {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: calc(10vw);
+    }
+
+    50% {
+        left: calc(100vw - 500px);
+    }
+
+    75% {
+        left: calc(75vw - 500px);
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+
+#div_animada {
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px;
+    width: 500px;
+    background-color: red;
+    animation-name: animacao-cor, animacao-movendo;
+    animation-duration: 4s, 6s;
+    animation-iteration-count: infinite, infinite;
+    animation-direction: alternate, normal;
+}
