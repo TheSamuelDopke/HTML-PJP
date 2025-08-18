@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(114, 83, 237, 1) 100%);
+}
+
+nav {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(20, 142, 146);
+    padding: 10px 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    width: 100%;
+    list-style-type: none;
+    flex: 1;
+    border: none;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(9, 204, 211);
+    margin: 5px;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: rgb(3, 242, 250);
+    cursor: pointer;
+}
