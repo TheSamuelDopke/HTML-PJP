@@ -6,6 +6,7 @@
 body {
     background: #2A7B9B;
     background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(114, 83, 237, 1) 100%);
+    height: 3000px;
 }
 
 nav {
@@ -15,6 +16,8 @@ nav {
     margin-top: 50px;
     background-color: rgb(20, 142, 146);
     padding: 10px 10px;
+    position: sticky;
+    top: 0px;
 }
 
 ul {
@@ -37,4 +40,12 @@ li {
 li:hover {
     background-color: rgb(3, 242, 250);
     cursor: pointer;
+}
+
+div{
+    height: auto;
+    width: 600px;
+    background-color: lightgray;
+    margin: 10px;
+    font-size: 50px;
 }
