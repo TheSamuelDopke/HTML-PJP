@@ -1,0 +1,58 @@
+@keyframes changeColor {
+    0% {
+        background-color: red;
+        top: 0px;
+        left: 0px;
+    }
+
+    50% {
+        background-color: red;
+        top: -50px;
+        left: 300px;
+    }
+
+    100% {
+        background-color: white;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+
+button{
+    position: relative;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.row1 {
+    animation: changeColor 2s ease 6;
+    animation-delay: 0s;
+}
+
+.row2 {
+    animation: changeColor 2s ease 5;
+    animation-delay: 2s;
+}
+
+.row3 {
+    animation: changeColor 2s ease 4;
+    animation-delay: 4s;
+}
+
+.column1 {
+    animation: changeColor 2s ease 3;
+    animation-delay: 6s;
+}
+
+.column2 {
+    animation: changeColor 2s ease 2;
+    animation-delay: 8s;
+}
+
+.column3 {
+    animation: changeColor 2s ease 1;
+    animation-delay: 10s;
+}
